@@ -1,0 +1,5 @@
+Neste segundo trabalho para casa, foi proposto criar um jogo de "Adivinha o número", com duas modalidades:uma em que o computador adivinha o número escolhido pelo computador e outra em que o jogador adivinha o número gerado pelo computador.
+O processo de desenvolvimento deste jogo foi complexo, e tive significativas dificulades em identificar as fontes dos meus erros.
+Um dos primeiros obstáculos foi entender a necessidade de usar a variável **acertou = False** antes de entrar no ciclo do **while**. Posteriormente, percebi que, o **acertou** tem de ser defenido antes de entrar no ciclo e que, apesar do computador não ter realizado nenhum palpite, tinha de defenir o acertou como falso.
+Outro problema que enfrentei foi na lógica de encerrar o ciclo da modalidade 2. Inicialmente, utilizei **acabou == True** para tentar sair do ciclo, contudo resultou numa comparação e não numa atribuição. Este erro consumiu muito tempo até ser identificado. 
+Além disso, houve necessidade de tratar corretamente os **input** do jogador. Como o jogador poderiar escrever respostas com maiúsculas, minúsculas ou com espaços desnecessários, usei as funções **strip()** e **lower()**.
