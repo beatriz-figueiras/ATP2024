@@ -1,0 +1,3 @@
+Neste quinto trabalho para casa, foi proposto desenvolver uma aplicação para gerir um cinema, utilizando uma lista de tuplos para representar as salas, a sua capacidade, lugares ocupados e o filme em exibição. 
+Uma dar maiores dificuldades no desenvolvimento deste trabalho foi, mais uma vez, a posição dos **return**. De tal modo que foi necessário recorrer ajudas externas. 
+Contudo, a elaboração do resto da aplicação foi simples, pois consistia numa estrutura semelhante ao trabalho anterior.
